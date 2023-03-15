@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header .menu{
+	width: 24px;
+}
+header .logo{
+	width: 124px;
+}
+header .imagens_menu{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	list-style-type: none;
+	margin-top: 15px;
+}
+header img{
+	margin-left: 25px;
+}
+header .pesquisa{
+	margin-left: 12%;
+	width: 600px;
+	height: 38px;
+	border-radius: 20px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.box-video{
+	margin: 30px 35px;
+}
+.box-video h2{
+	font-weight: normal;
+	font-size: 19px;
+	margin-top: 10px;
+}
+.button{
+	width: 400px;
+	height: 35px;
+	border-radius: 20px;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 30px;
+	background: white;
+}
+.button-pesquisa{
+	width: 120px;
+	height: 35px;
+	border-radius: 15px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-top: 30px;
+	background: white;
+}
+.box-lateral input:nth-child(2){
+	background: black;
+	color: white;
+}
+.center-pagina{
+	display: flex;
+	flex-direction: row;
+}
+.box-video-lateral{
+	margin-top: 20px;
+}
+.box-video-lateral-itens{
+	display: flex;
+	flex-direction: row;
+}
+.textos p{
+	font-size: 15px;
+	margin-bottom:  8px;
+	margin-left: 5px;
+}
+.textos p:nth-child(2){
+	margin-bottom:  0px;
+}
